@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    }
+
+
+
+body {
+   margin:0;
+   font-family: 'Libre Baskerville', serif;
+   font-size: 17px;
+   color:whitesmoke;
+   line-height:1.6;
+   
+}
+
+
+#showcase {
+    background-image: url(../img/toronto.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+/*100vh covers the whole viewport */ 
+
+#showcase h1 {
+  font-size:2.4rem;
+  line-height: 1.2;
+}
+
+
+#showcase p {
+    font-size:20px;
+}
+
+#showcase .button {
+font-size:18px;
+text-decoration: none;
+color:whitesmoke;
+border: white 1px solid;
+padding:10px 20px;
+border-radius: 10px;
+margin-top:20px;
+}
+
+
+#showcase .button:hover {
+    background: #FC766AFF;
+    color:#fff;
+}
+
+
+#section-a {
+    padding:20px;
+    background:#5B84B1FF;
+    color:white;
+    text-align :center;
+}
+
+#section-b {
+padding:20px;
+background : #FC766AFF;
+color:white;
+text-align:center;
+
+}
+
+#section-c {
+display:flex;
+background:#5B84B1FF;
+padding:20px;
+justify-content: center;
+cursor:pointer;
+
+}
+
+#section-c .box-1, #section-c .box-3 {
+background:#5B84B1FF;
+color:#fff;
+}
+
+#section-c .box-1  {
+    padding:20px;
+}
+
+#section-c .box-2  {
+    padding:20px;
+    background : #FC766AFF;
+}
+
+#section-c .box-3  {
+    padding:20px;
+}
+
+p {
+    margin:8px 0px;
+}
